@@ -12,7 +12,6 @@ public class AspectJAnnotationTest {
 
 		EmployeeService employeeService = context.getBean(EmployeeService.class);
 
-		// @Before
 		employeeService.saveEmployee();
 
 		// @After
